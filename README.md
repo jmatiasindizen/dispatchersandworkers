@@ -15,9 +15,13 @@ It has been necessary to change some exercise requirements:
 Code organization
 
 dispatcher.py - Contain dispatcher class definition.
+
 workers.py - Contain three type of worker classes and Worker parent class.
+
 container.py - Contain Container class for Dependency injection solution.
-persistence.py - Contain three decorator classes that implement DB storing for worker objects
+
+persistence.py - Contain three decorator classes that implement DB storing for worker objects.
+
 main.py - Script for init application
 
 Asynchronous solution
