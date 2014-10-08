@@ -12,7 +12,7 @@ def main ():
     worker_C = WorkerC()
     container.add_component(worker_C)
     
-    dispatcher = Dispatcher(container)
+    dispatcher = Dispatcher([worker_A, worker_B, worker_C])
     container.add_component(dispatcher)
     
     container.get_component(Dispatcher).dispatch()
